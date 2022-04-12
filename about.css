@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    line-height: 1.7em;
+}
+
+/* Navbar */
+#navbar {
+    background: #333;  
+    color: #fff;
+    overflow: auto;
+}
+#navbar .container a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding:0 25px;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none ;
+}
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#navbar ul li a:hover{
+    background: #444;
+    color: #f7c08a;
+    cursor: pointer;
+}
+/* About-info */
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .container .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+#about-info .container .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+.clr{
+    clear: both;
+}
+
+.large{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.large .text-primary{
+    color:#f7c08a
+}
+
+    /* Footer */
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Reviews */
+
+#reviews{
+    height: 600px;
+    background-image: url("../img/image_resources/test-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.large-2{
+    text-align: center;
+    padding-top: 60px;
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+#reviews .reviews-primary img{
+    float: left; 
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: -9px 16px;
+}
+#reviews .reviews-primary{
+    
+    padding:25px;
+    margin-bottom: 20px;
+    opacity:0.9;
+}
+
+.moreinfo .reviews-primary{
+    border-radius: 8px;
+    background-color: #f7c08a;
+    background-position: center;
+}
+    
+

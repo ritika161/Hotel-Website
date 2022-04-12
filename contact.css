@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     line-height: 1.7em;
+    display:block;
+}
+.container{
+    margin:auto;
+    max-width:1100px;
+    overflow: auto;
+    padding:  0 20px;
+}
+.clr
+{ 
+    clear: both;
+}
+
+/* --------------navbarcss-------------- */
+
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+      color: #fff;
+}
+#navbar h1{ 
+    float: left;
+    padding: 15px;
+}
+#navbar ul{
+    float:right;
+}
+#navbar li{
+    float: left;
+    list-style: none;
+}
+#navbar li a{
+    display: block;
+   float: left; 
+   padding: 20px ;
+   text-align: center;
+}
+#navbar li a:hover, #navbar li a.current{
+    background: #444;
+    color: #f7c08a;
+}
+
+/* --------------formcss-------------- */
+
+section{
+    display:block;
+}
+#form-wrap .form-group{
+    margin-bottom: 20px;
+
+}
+#contact-form h2{
+    font-size:40px;
+
+padding: 30px 15px;}
+#contact-form h2 span{
+    color:#f7c08a
+    
+}
+#contact-form p{
+    font-size: 20px;
+    padding-bottom:20px;
+    
+}
+#contact-form label{
+    display:block;
+    margin-bottom:10px;
+    font-size:19px;
+}
+#contact-form input,
+#contact-form textarea
+{ 
+    margin:2px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+#contact-form textarea{
+    height: 200px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline:none;
+    border-color: #f7c08a;
+}
+
+
+/* -----------buttoncss----------- */
+
+.btn-btn{
+    display:inline-block;
+    font-size: 18px; 
+    background: #333;
+    color:#fff;
+    padding:15px 30px;
+    margin-bottom: 20px;
+    margin-top:0;
+}
+.btn-btn:hover{ 
+    color: #f7c08a;
+    background:#444;
+}
+  
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+
+/* --------------boxcss------------- */
+.box{
+    float: left;
+    width: 33.3%;
+    padding:50px;
+    text-align: center;
+    background:#333;
+    color:#fff;
+
+}
+.box h1{
+    margin-top:15px;
+    margin-bottom:5px;
+    font-size:20px;
+}
+.box i{
+    line-height: 1.2em;
+}
+#contact-form2 p{
+    font-size: 20px;
+}
+
+/* --------------footer-------------- */
+
+#main-footer{
+    text-align: center;
+    font-size: 18px;
+    height: 70px;
+    background: #444;
+    color: #fff;
+    padding-top:20px;
+}

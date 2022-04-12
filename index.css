@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: none;
+
+}
+.container{
+    margin:auto;
+    max-width:1100px;
+    padding:  0 20px;
+}
+.lead{
+    font-size: 18px;
+    color:#fff
+}
+.btn{
+    display:inline-block;
+    font-size: 18px;
+    background: #333;
+    color:#fff;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #f7c08a;
+    color:black;
+}
+.btn btn-info{
+    background:white;
+}
+.btn btn-info:hover{
+    color:black;
+    background: #f7c08a;
+}
+.clr
+{ 
+    clear: both;
+}
+   
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+      color: #fff;
+}
+#navbar h1{ 
+    float: left;
+    padding: 15px;
+    
+
+}
+#navbar ul{
+    float:right;
+}
+#navbar li{
+    float: left;
+    list-style: none;
+}
+    
+#navbar li a{
+    display: block;
+   float: left; 
+   padding: 20px ;
+   text-align: center;
+
+}
+#navbar li a:hover, #navbar li a.current{
+    background: #444;
+    color: #f7c08a;
+}
+#showcase{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: url('../img/image_resources/showcase.jpg');
+    /* center center/cover; */
+    height:600px;
+}
+#showcase .showcase-content{
+    text-align: center;
+    padding-top: 225px;
+}
+#showcase .showcase-content h1{
+    padding-bottom: 30px;
+    font-size: 50px;
+    line-height: 1.5em;
+}
+#showcase .showcase-content h1 span{
+    color:#f7c08a;
+}
+#showcase .showcase-content p{
+    padding-bottom: 25px;
+    line-height: 1.7em;
+}
+#home-info .info-content h1 span{
+    color:#f7c08a;
+
+}
+#home-info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 400px;
+    background: #333;
+    text-align: center;
+}
+#home-info .info-content h1{
+    color:#fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url('../img/image_resources/photo-1.jpg');
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: black;
+}
+#home-info .info-content p{
+    display:inline-block;
+    color:#fff;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+#home-info a{
+    margin-top: 30px;
+}
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 25px;
+    text-align: center;
+}
+.box h1{
+    margin-bottom: 5px;
+}
+.box i{
+    line-height: 1.2em;
+}
+#main-footer{
+    text-align: center;
+    font-size: 18px;
+    height: 80px;
+    background: #333;
+    color: #fff;
+    padding-top:30px;
+}
